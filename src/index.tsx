@@ -6,8 +6,6 @@ import App from './App';
 
 import store from './redux/store';
 
-import './index.css';
-
 const app = ReactDOM.createRoot(document.getElementById('app') as HTMLElement);
 
 app.render(
