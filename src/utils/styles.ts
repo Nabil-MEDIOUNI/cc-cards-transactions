@@ -85,8 +85,5 @@ export const LoadingContainer = styled.div`
 `;
 
 export const ErrorMessage = styled.h2`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
 `;

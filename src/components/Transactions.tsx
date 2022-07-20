@@ -7,6 +7,7 @@ import {
   LoadingContainer,
   TransactionContainer,
   TransactionsTypography,
+  ErrorMessage,
 } from '../utils/styles';
 
 function Transactions() {
