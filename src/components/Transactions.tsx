@@ -32,6 +32,10 @@ function Transactions() {
     );
   }
 
+  if (filteredTransactions.length === 0) {
+    return <ErrorMessage>Empty List!</ErrorMessage>;
+  }
+
   return (
     <>
       {filteredTransactions.map((transaction: TransactionInterface) => (
